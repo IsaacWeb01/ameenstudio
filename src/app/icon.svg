@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="16" fill="#111110"/>
+  <!-- Custom Geometric 'A' Mark -->
+  <path d="M 12 50 L 29 14 L 35 14 L 18 50 Z" fill="#F5F1E9"/>
+  <path d="M 31 14 L 37 14 L 52 50 L 46 50 Z" fill="#F5F1E9"/>
+  <!-- Signature Orange Crossbar Accent -->
+  <path d="M 20 36 L 44 36 L 42 40 L 22 40 Z" fill="#F06432"/>
+  <!-- Apex Dot -->
+  <circle cx="32" cy="11" r="2.5" fill="#F06432"/>
+</svg>
+
