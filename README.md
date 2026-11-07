@@ -62,8 +62,8 @@ This repository contains both:
 ### Installation
 
 ```bash
-git clone https://github.com/IsaacWeb01/ameen-studio.git
-cd ameen-studio
+git clone https://github.com/IsaacWeb01/ameenstudio.git
+cd ameenstudio
 npm install
 ```
 
@@ -91,3 +91,4 @@ Double-click `index.html` or open it directly in any modern browser to view the 
 ## ✦ License
 
 Private / Proprietary © 2026 Ameen Studio · Al-Ameen Tijani. All rights reserved.
+
