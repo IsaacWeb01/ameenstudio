@@ -23,7 +23,7 @@ export interface StudioInfo {
 }
 
 export const studioInfo: StudioInfo = {
-  name: 'AMEEN STUDIO',
+  name: 'AL-AMEEN STUDIO',
   founder: 'Al-Ameen Tijani',
   title: 'Framer Developer & Motion Designer for Startups & Brands',
   tagline: 'Digital experiences designed to move.',

@@ -3,13 +3,13 @@ import './globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://ameen.studio'),
-  title: 'Ameen Studio | Framer Developer & Motion Designer',
+  title: 'Al-Ameen Studio | Framer Developer & Motion Designer',
   description:
-    'Ameen Studio creates distinctive Framer websites, interactive digital experiences and purposeful motion design for startups and modern brands.',
+    'Al-Ameen Studio creates distinctive Framer websites, interactive digital experiences and purposeful motion design for startups and modern brands.',
   keywords: [
     'Framer Developer',
     'Motion Designer',
-    'Ameen Studio',
+    'Al-Ameen Studio',
     'Al-Ameen Tijani',
     'Creative Studio',
     'Web Design',
@@ -20,17 +20,17 @@ export const metadata: Metadata = {
   authors: [{ name: 'Al-Ameen Tijani', url: 'https://ameen.studio' }],
   creator: 'Al-Ameen Tijani',
   openGraph: {
-    title: 'Ameen Studio | Framer Developer & Motion Designer',
+    title: 'Al-Ameen Studio | Framer Developer & Motion Designer',
     description:
       'Distinctive Framer websites, interactive digital experiences and purposeful motion design for startups and modern brands.',
     url: 'https://ameen.studio',
-    siteName: 'Ameen Studio',
+    siteName: 'Al-Ameen Studio',
     images: [
       {
         url: '/images/portfolio/snapra.png',
         width: 1200,
         height: 630,
-        alt: 'Ameen Studio — Framer Development & Motion Design',
+        alt: 'Al-Ameen Studio — Framer Development & Motion Design',
       },
     ],
     locale: 'en_US',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Ameen Studio | Framer Developer & Motion Designer',
+    title: 'Al-Ameen Studio | Framer Developer & Motion Designer',
     description:
       'Distinctive Framer websites, interactive digital experiences and purposeful motion design for startups and modern brands.',
     images: ['/images/portfolio/snapra.png'],

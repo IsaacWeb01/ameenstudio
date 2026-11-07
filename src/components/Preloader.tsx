@@ -9,11 +9,11 @@ interface PreloaderProps {
 }
 
 /**
- * Signature full-screen preloader for Ameen Studio.
+ * Signature full-screen preloader for Al-Ameen Studio.
  *
- * Reverted to original beloved animation sequence:
- * 1. Letters of "AMEEN" animate in one by one (staggered fade + slide up) in pure white (#FFFFFF).
- * 2. The "A" receives its signature orange accent line across its crossbar (scaleX: 0 -> 1).
+ * Sequence:
+ * 1. Letters of "AL-AMEEN" animate in one by one (staggered fade + slide up) in pure white (#FFFFFF).
+ * 2. The first "A" receives its signature orange accent line across its crossbar (scaleX: 0 -> 1).
  * 3. The orange line sweeps horizontally under the entire assembled wordmark (scaleX: 0 -> 1).
  * 4. Brief hold, then the entire preloader curtain slides smoothly up to reveal the site.
  */
@@ -45,7 +45,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
         y: 70,
         opacity: 0,
         duration: 0.6,
-        stagger: 0.08,
+        stagger: 0.06,
         ease: 'power3.out',
       })
       // 2. "A" letter gets its orange accent crossbar
@@ -83,6 +83,8 @@ export default function Preloader({ onComplete }: PreloaderProps) {
     };
   }, [onComplete]);
 
+  const chars = ['A', 'L', '-', 'A', 'M', 'E', 'E', 'N'];
+
   return (
     <div
       ref={preloaderRef}
@@ -92,56 +94,33 @@ export default function Preloader({ onComplete }: PreloaderProps) {
       <div className="flex flex-col items-center">
         {/* Wordmark */}
         <div className="relative">
-          <div className="flex items-baseline select-none font-sans font-extrabold tracking-[0.06em] text-[clamp(3.5rem,10vw,7rem)] text-white">
-            <span
-              ref={(el) => {
-                lettersRef.current[0] = el;
-              }}
-              className="inline-block relative text-white"
-            >
-              <span className="relative inline-block">
-                A
-                {/* Signature Orange Crossbar */}
-                <span
-                  ref={barRef}
-                  className="absolute left-[18%] right-[18%] h-[3px] bg-brand-orange rounded-full origin-center"
-                  style={{ top: '55%', transform: 'scaleX(0)' }}
-                  aria-hidden="true"
-                />
+          <div className="flex items-baseline select-none font-sans font-extrabold tracking-[0.06em] text-[clamp(2.75rem,8vw,6.5rem)] text-white">
+            {chars.map((char, i) => (
+              <span
+                key={i}
+                ref={(el) => {
+                  lettersRef.current[i] = el;
+                }}
+                className={`inline-block text-white ${
+                  char === '-' ? 'text-brand-orange mx-0.5' : ''
+                } ${i === 0 ? 'relative' : ''}`}
+              >
+                {i === 0 ? (
+                  <span className="relative inline-block">
+                    A
+                    {/* Signature Orange Crossbar */}
+                    <span
+                      ref={barRef}
+                      className="absolute left-[18%] right-[18%] h-[3px] bg-brand-orange rounded-full origin-center"
+                      style={{ top: '55%', transform: 'scaleX(0)' }}
+                      aria-hidden="true"
+                    />
+                  </span>
+                ) : (
+                  char
+                )}
               </span>
-            </span>
-            <span
-              ref={(el) => {
-                lettersRef.current[1] = el;
-              }}
-              className="inline-block text-white"
-            >
-              M
-            </span>
-            <span
-              ref={(el) => {
-                lettersRef.current[2] = el;
-              }}
-              className="inline-block text-white"
-            >
-              E
-            </span>
-            <span
-              ref={(el) => {
-                lettersRef.current[3] = el;
-              }}
-              className="inline-block text-white"
-            >
-              E
-            </span>
-            <span
-              ref={(el) => {
-                lettersRef.current[4] = el;
-              }}
-              className="inline-block text-white"
-            >
-              N
-            </span>
+            ))}
           </div>
 
           {/* Underline sweeping across */}

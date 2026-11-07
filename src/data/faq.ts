@@ -39,7 +39,7 @@ export const faqData: FAQItem[] = [
     number: '05',
     question: 'Do you work with international clients?',
     answer:
-      'Yes. Ameen Studio works remotely with clients across different countries and time zones.',
+      'Yes. Al-Ameen Studio works remotely with clients across different countries and time zones.',
   },
   {
     id: 'faq-6',

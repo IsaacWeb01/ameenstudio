@@ -1,4 +1,4 @@
-# Ameen Studio — Framer Developer & Motion Designer
+# Al-Ameen Studio — Framer Developer & Motion Designer
 
 > Digital experiences designed to move. Websites and purposeful motion design for startups, founders, and modern brands that refuse to look ordinary.
 
@@ -11,7 +11,7 @@
 
 ## ✦ Overview
 
-Ameen Studio is an independent digital creative studio delivering high-craft Framer development, motion design, and interactive web experiences. 
+Al-Ameen Studio is an independent digital creative studio delivering high-craft Framer development, motion design, and interactive web experiences. 
 
 This repository contains both:
 1. **Next.js Production Application**: Modern Next.js 15 App Router + React 19 + TypeScript + Tailwind CSS with GSAP motion and Lenis smooth scrolling.
@@ -90,5 +90,5 @@ Double-click `index.html` or open it directly in any modern browser to view the 
 
 ## ✦ License
 
-Private / Proprietary © 2026 Ameen Studio · Al-Ameen Tijani. All rights reserved.
+Private / Proprietary © 2026 Al-Ameen Studio · Al-Ameen Tijani. All rights reserved.
 

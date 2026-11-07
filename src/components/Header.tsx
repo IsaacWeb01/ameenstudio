@@ -33,7 +33,7 @@ export default function Header() {
           <a
             href="#top"
             className="pointer-events-auto flex items-center gap-3 transition-opacity duration-300 hover:opacity-90"
-            aria-label="Ameen Studio Homepage"
+            aria-label="Al-Ameen Studio Homepage"
           >
             <AnimatedLogo variant="light" size="md" />
           </a>

@@ -32,7 +32,7 @@ export default function Footer() {
               A
             </div>
             <span className="font-sans font-extrabold text-lg tracking-tight text-white">
-              Ameen Studio<span className="text-xs font-mono text-brand-orange ml-1">™</span>
+              Al-Ameen Studio<span className="text-xs font-mono text-brand-orange ml-1">™</span>
             </span>
           </div>
 
@@ -111,7 +111,7 @@ export default function Footer() {
 
         {/* Bottom Minimal Copyright Bar */}
         <div className="pt-6 border-t border-white/15 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-white/50">
-          <p>© 2026 AMEEN STUDIO</p>
+          <p>© 2026 AL-AMEEN STUDIO</p>
           <p className="hidden md:block tracking-widest uppercase text-white/40 font-mono text-[11px]">MADE FOR FOUNDERS EVERYWHERE</p>
           <div className="flex items-center gap-4">
             <span>Canada · Worldwide</span>

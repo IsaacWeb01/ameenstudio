@@ -359,7 +359,7 @@ export default function ContactSection() {
                 {/* 9. Discovery Source */}
                 <div>
                   <label className="block text-xs font-mono uppercase tracking-wider text-white/70 mb-2">
-                    Where did you find Ameen Studio?
+                    Where did you find Al-Ameen Studio?
                   </label>
                   <select
                     name="source"

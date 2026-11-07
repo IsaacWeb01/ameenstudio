@@ -2,8 +2,8 @@ import { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Ameen Studio',
-    short_name: 'Ameen',
+    name: 'Al-Ameen Studio',
+    short_name: 'Al-Ameen',
     description: 'Framer Developer & Motion Designer for Startups & Brands',
     start_url: '/',
     display: 'standalone',

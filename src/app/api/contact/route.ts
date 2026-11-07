@@ -19,7 +19,7 @@ export async function POST(req: Request) {
     }
 
     // Log the contact inquiry for server observability
-    console.log('[AMEEN STUDIO INQUIRY]', {
+    console.log('[AL-AMEEN STUDIO INQUIRY]', {
       recipient: 'alameenworkss@outlook.com',
       date: new Date().toISOString(),
       fullName,

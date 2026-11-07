@@ -119,7 +119,7 @@ export default function Testimonials() {
               </p>
             </div>
             <div className="pt-6 border-t border-white/10 flex items-center justify-between text-xs font-mono text-white/50">
-              <span>Ameen Studio</span>
+              <span>Al-Ameen Studio</span>
               <span className="text-brand-orange">Worldwide</span>
             </div>
           </div>

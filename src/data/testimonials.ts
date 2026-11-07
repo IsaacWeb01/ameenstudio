@@ -12,7 +12,7 @@ export const testimonialsData: Testimonial[] = [
     id: 'testimonial-1',
     number: '01',
     quote:
-      'Working with Ameen was a great experience. He understood the direction we wanted and translated it into a website that feels polished, modern and completely aligned with our brand.',
+      'Working with Al-Ameen was a great experience. He understood the direction we wanted and translated it into a website that feels polished, modern and completely aligned with our brand.',
     attribution: 'Alex Morgan',
     role: 'Startup Founder',
     avatarInitial: 'A',
@@ -30,7 +30,7 @@ export const testimonialsData: Testimonial[] = [
     id: 'testimonial-3',
     number: '03',
     quote:
-      'Ameen brought our ideas to life with a level of creativity and technical understanding that made the entire process seamless. Communication was clear from start to finish.',
+      'Al-Ameen brought our ideas to life with a level of creativity and technical understanding that made the entire process seamless. Communication was clear from start to finish.',
     attribution: 'Sophia Bennett',
     role: 'Brand Founder',
     avatarInitial: 'S',

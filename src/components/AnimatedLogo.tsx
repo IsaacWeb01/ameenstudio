@@ -10,9 +10,9 @@ interface AnimatedLogoProps {
 }
 
 const SIZES = {
-  sm: { height: 26, width: 120 },
-  md: { height: 34, width: 156 },
-  lg: { height: 50, width: 230 },
+  sm: { height: 26, width: 160 },
+  md: { height: 32, width: 200 },
+  lg: { height: 46, width: 280 },
 };
 
 export default function AnimatedLogo({
@@ -37,22 +37,20 @@ export default function AnimatedLogo({
       <svg
         width={currentSize.width}
         height={currentSize.height}
-        viewBox="0 0 160 36"
+        viewBox="0 0 228 36"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         className="transition-transform duration-300 group-hover:scale-[1.02]"
         role="img"
-        aria-label="Ameen Studio Logo"
+        aria-label="Al-Ameen Studio Logo"
       >
-        {/* Custom Geometric 'A' Mark */}
-        <g className="logo-letter-a">
-          {/* Left diagonal leg */}
+        {/* Letter A (Initial) */}
+        <g className="logo-letter-a1">
           <path
             d="M 6 30 L 19 6 L 24 6 L 11 30 Z"
             fill={textColor}
             className="transition-colors duration-300"
           />
-          {/* Right diagonal leg */}
           <path
             d="M 21 6 L 26 6 L 39 30 L 34 30 Z"
             fill={textColor}
@@ -68,34 +66,70 @@ export default function AnimatedLogo({
           <circle cx="22.5" cy="4" r="1.5" fill="#F06432" />
         </g>
 
-        {/* Custom M */}
+        {/* Letter L */}
+        <g className="logo-letter-l">
+          <path
+            d="M 44 6 H 49 V 25.5 H 61 V 30 H 44 Z"
+            fill={textColor}
+          />
+        </g>
+
+        {/* Hyphen - */}
+        <g className="logo-hyphen">
+          <rect
+            x="67"
+            y="17"
+            width="10"
+            height="3.5"
+            rx="1.5"
+            fill="#F06432"
+          />
+        </g>
+
+        {/* Letter A (Second) */}
+        <g className="logo-letter-a2">
+          <path
+            d="M 85 30 L 98 6 L 103 6 L 90 30 Z"
+            fill={textColor}
+          />
+          <path
+            d="M 100 6 L 105 6 L 118 30 L 113 30 Z"
+            fill={textColor}
+          />
+          <path
+            d="M 91 20 L 112 20 L 110.5 23 L 92.5 23 Z"
+            fill="#F06432"
+          />
+        </g>
+
+        {/* Letter M */}
         <g className="logo-letter-m">
           <path
-            d="M 45 30 V 6 H 50 L 58.5 21 L 67 6 H 72 V 30 H 67.5 V 13 L 59.8 26.5 H 57.2 L 49.5 13 V 30 H 45 Z"
+            d="M 124 30 V 6 H 129 L 137.5 21 L 146 6 H 151 V 30 H 146.5 V 13 L 138.8 26.5 H 136.2 L 128.5 13 V 30 H 124 Z"
             fill={textColor}
           />
         </g>
 
-        {/* Custom First E */}
+        {/* First E */}
         <g className="logo-letter-e1">
           <path
-            d="M 79 30 V 6 H 98 V 10.5 H 84 V 15.5 H 96 V 19.8 H 84 V 25.5 H 98.5 V 30 H 79 Z"
+            d="M 157 30 V 6 H 173 V 10.5 H 162 V 15.5 H 171 V 19.8 H 162 V 25.5 H 173.5 V 30 H 157 Z"
             fill={textColor}
           />
         </g>
 
-        {/* Custom Second E */}
+        {/* Second E */}
         <g className="logo-letter-e2">
           <path
-            d="M 104 30 V 6 H 123 V 10.5 H 109 V 15.5 H 121 V 19.8 H 109 V 25.5 H 123.5 V 30 H 104 Z"
+            d="M 179 30 V 6 H 195 V 10.5 H 184 V 15.5 H 193 V 19.8 H 184 V 25.5 H 195.5 V 30 H 179 Z"
             fill={textColor}
           />
         </g>
 
-        {/* Custom N with subtle angular cut */}
+        {/* Letter N */}
         <g className="logo-letter-n">
           <path
-            d="M 129 30 V 6 H 134.5 L 148 23.5 V 6 H 153 V 30 H 147.5 L 134 12.5 V 30 H 129 Z"
+            d="M 201 30 V 6 H 206.5 L 217 23.5 V 6 H 221.5 V 30 H 216.5 L 206 12.5 V 30 H 201 Z"
             fill={textColor}
           />
         </g>
